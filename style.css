@@ -1,0 +1,21 @@
+body {
+  font-family: 'Source Sans Pro', 'Coiny';
+}
+.hero-section {
+  background: url("/images/pic_1.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar-toggler {
+  display: none;
+}
+
+/* Media Queries */
+
+@media (max-width: 576px) {
+  .navbar-toggler {
+    display: block;
+  }
+}
